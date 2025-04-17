@@ -9,6 +9,9 @@ $grid-gutter-width: 0.5rem;
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/variables-dark";
 
+$card-bg: $dark;
+$card-color: $info;
+$card-border-radius: 2rem;
 // 4. Include any default map overrides here
 
 $font-sizes-extra: (
