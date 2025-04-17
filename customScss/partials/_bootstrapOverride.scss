@@ -6,6 +6,15 @@
 
 // 4. Include any default map overrides here
 
+$font-sizes-extra: (
+  7: 0.875rem,
+  8: 0.75rem,
+  9: 0.625rem,
+  10: 0.5rem,
+);
+
+$font-sizes: map-merge($font-sizes, $font-sizes-extra);
+
 // 5. Include remainder of required parts
 @import "../../bootstrap/scss/maps";
 @import "../../bootstrap/scss/mixins";
